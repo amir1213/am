@@ -224,6 +224,7 @@ function create_config( )
     "sms",
     "Debian_service",
     "sudoers",
+    "plugins",
     "add_admin",
     "anti_spam",
     "add_bot",
