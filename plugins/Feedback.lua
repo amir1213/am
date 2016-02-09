@@ -2,7 +2,7 @@ do
 
 function run(msg, matches)
 
-local fuse = '#DearAdmin😜 we have recived a new feedback just now : #newfeedback \n\nID▶️ : ' .. msg.from.id .. '\n\nName▶ : ' .. msg.from.print_name ..'\n\nusername▶️ :@ ' .. msg.from.username  ..'\n\n🅿️♏️ :\n\n\n' .. matches[1] 
+local fuse = 'پیام جدیدی برای شما ارسال شده است :  \n\nای دی▶️: ' .. msg.from.id .. '\n\nنام▶ : ' .. msg.from.print_name ..'\n\nیوزر نیم▶️: @ ' .. msg.from.username  ..'\n\n🅿️♏️:\n\n\n' .. matches[1] 
 local fuses = '!printf user#id' .. msg.from.id
 
 
@@ -19,9 +19,9 @@ local fuses = '!printf user#id' .. msg.from.id
  else
 
 
-                 local sends0 = send_msg('chat#اینجا ای دی گروه فید بک', fuse, ok_cb, false)
+                 local sends0 = send_msg('chat#111985257', fuse, ok_cb, false)
 
- return 'your feedback succesfully recived to @creed_is_dead and Team😜!'
+ return 'پیام شما با موفقیت ارسال شد 👍!'
 
      
 
